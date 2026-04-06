@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 140px;
+    height: 170ch;
+    border-right: 1px solid white;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
